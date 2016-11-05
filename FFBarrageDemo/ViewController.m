@@ -21,9 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.title = @"弹幕";
-    _manager = [[FFBarrageManager alloc] initWithComments:@[@"弹幕1~~~~~~~~~~~~~~", @"弹幕2~~~~~~~~~~~~~~~~~~", @"弹幕3~~~~~~~~~~~~~~~~~~~~~~~~",
-                                                            @"弹幕4~~~~~~~~~~~~~", @"弹幕5~~~~~~~~~~~~~~~~~~", @"弹幕6~~~~~~~~~~~~~~~~~~",
-                                                            @"弹幕7~~~~~~~~~~~~", @"弹幕8~~~~~~~~~~~~~~~~~~~~~~~~", @"弹幕9~~~~~~~~~~~"]];
+    _manager = [[FFBarrageManager alloc] initWithComments:@[]];
     __weak typeof (self) weakSelf = self;
     _manager.trajectoryCount = 5;
     _manager.generateViewBlock = ^(FFBarrageView *barrageView){

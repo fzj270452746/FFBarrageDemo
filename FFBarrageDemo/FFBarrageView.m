@@ -10,6 +10,7 @@
 
 #define Padding 10.0f
 #define HeadHeight  40.0f
+#define KDefaultViewHeight  30.0f
 
 #define kAnimationDuration  5.0
 

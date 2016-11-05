@@ -123,7 +123,7 @@
 
 - (void)start
 {
-    if (self.isBarrageStart) {
+    if (self.isBarrageStart || self.datasource.count == 0) {
         return;
     }
     
